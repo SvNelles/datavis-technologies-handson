@@ -7,4 +7,9 @@
 		click here
 	</button>
 	<!--  -->
+	{#if clicked}
+	<p> You have clicked the button</p>
+	{:else}
+	<p>You have not clicked the button</p>
+	{/if}
 </div>
